@@ -1,0 +1,42 @@
+$font-title: 'Lobster', cursive;
+$font-header: 'Montserrat', sans-serif;
+$font-text: 'Source Sans Pro', sans-serif;
+$color-light: white;
+$color-dark: black;
+$background-two: #dfe6e9;
+
+/* Global */
+
+.title {
+    font-family: $font-title;
+    color: yellow;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    color: $color-light;
+    font-family: $font-text;
+    font-size: 16px;
+    line-height: 1.7;
+    background-color: $color-light;
+    width: 74%;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-image: url(https://images.pexels.com/photos/1002634/pexels-photo-1002634.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;    
+    position: relative;
+    height: 78vh;
+    a {
+        text-decoration: none;
+        color: $color-light;
+    }
+}

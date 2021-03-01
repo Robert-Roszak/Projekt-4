@@ -1,2 +1,35 @@
+/* Global */
+.title {
+  font-family: "Lobster", cursive;
+  color: yellow;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+body {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  background-color: white;
+  width: 74%;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  flex-direction: row;
+  background-image: url(https://images.pexels.com/photos/1002634/pexels-photo-1002634.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 78vh;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFPQSxXQUFBO0FBRUE7RUFDSSwrQkFWMkI7RUFXM0IsYUFBYTtBQ1BqQjs7QURVQTtFQUNJLGNBQWM7RUFDZCxrQkFBa0I7RUFDbEIsWUFkZTtFQWVmLDBDQWhCcUM7RUFpQnJDLGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIsdUJBbEJlO0VBbUJmLFVBQVU7QUNQZDs7QURVQSxlQUFBO0FBRUE7RUFDSSxhQUFhO0VBQ2IsbUJBQW1CO0VBQ25CLHlGQUF5RjtFQUN6RiwyQkFBMkI7RUFDM0Isc0JBQXNCO0VBQ3RCLDRCQUE0QjtFQUM1Qiw0QkFBNEI7RUFDNUIsa0JBQWtCO0VBQ2xCLFlBQVk7QUNSaEI7O0FEREE7RUFXUSxxQkFBcUI7RUFDckIsWUFwQ1c7QUM4Qm5CIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
