@@ -21,7 +21,7 @@ a {
 body {
     margin: 0 auto;
     text-align: center;
-    color: $color-light;
+    color: $color-dark;
     font-family: $font-text;
     font-size: 16px;
     line-height: 1.7;
@@ -32,6 +32,7 @@ body {
 /* Navigation */
 
 nav {
+    color: $color-light;
     padding-bottom: 40px;
     background-image: url(https://images.pexels.com/photos/1002634/pexels-photo-1002634.jpeg);
     background-position: center;
