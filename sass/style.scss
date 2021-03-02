@@ -130,7 +130,12 @@ nav {
 /* Services */
 
 .services {
-    padding: 100px 0;
+    padding: 100px 0 70px;
+
+    .row {
+        padding-top: 30px;
+    }
+    
 
     .fas {
         color: $color-additional;
@@ -151,33 +156,32 @@ nav {
 .portfolio {
     background-color: #dff9fb;
 
-    .header {
-        padding-top: 80px;
-    }
+    .container {
+        padding: 80px 0;
 
-    .row:last-of-type {
-        padding-bottom: 50px;
-    }
+        .row {
+            padding: 20px 0;
 
-    img {
-        width: 300px;
-        height: 300px;
-    }
+            img {
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+            }
 
-    .card-title, .card-subtitle {
-        background-color: $color-light;
-        padding: 0;
-        margin: 0;
-        width: 300px;
-    }
+            .card-title, .card-subtitle {
+                background-color: $color-light;
+                margin: 0;
+            }
 
-    .card-title {
-        margin-top: -10px;
-        padding-top: 10px;
-    }
+            .card-title {
+                margin-top: -10px;
+                padding-top: 10px;
+            }
 
-    .card-subtitle {
-        padding-bottom: 10px;
+            .card-subtitle {
+                padding-bottom: 10px;
+            }
+        }
     }
 }
 
@@ -186,38 +190,51 @@ nav {
 footer {
 
     .row {
-     /*   align-items: center;*/
         padding: 20px;
+        
+        .copyright {
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style-type: none;
+            float: left;
+            padding: 0 5px 0;
+        }
+
+        .fab {
+            padding: 10px;
+            font-size: 20px;
+            width: 40px;
+            text-align: center;
+            margin: 5px 2px;
+            border-radius: 50%;    
+            box-shadow: 5px 5px 10px 0px black;    
+            color: $color-light;
+            background-color: $color-dark;
+        }
     }
+}
 
+/* Media */
 
-
-    .copyright {
-        font-size: 16px;
-        margin: 0;
-        padding: 0;
+@media (max-width: 960px) {
+    .welcome-text, .welcome-header {
+        font-size: 30px !important;
     }
-
-    ul {
-        margin: 0;
-        padding: 0;
+    .button {
+        font-size: 20px !important;
+        width: auto !important;
+        padding: 5px !important;
     }
-
-    li {
-        list-style-type: none;
-        float: left;
-        padding: 0 5px 0;
-    }
-
-    .fab {
-        padding: 10px;
-        font-size: 20px;
-        width: 40px;
-        text-align: center;
-        margin: 5px 2px;
-        border-radius: 50%;    
-        box-shadow: 5px 5px 10px 0px black;    
-        color: $color-light;
-        background-color: $color-dark;
+    footer ul {
+        transform: translate(25%);
     }
 }
