@@ -48,13 +48,12 @@ body {
     font-size: 16px;
     line-height: 1.7;
     background-color: $color-light;
-    width: 74%;
 }
-/*
+
 .row {
-    padding: 30px 0;
+    align-items: center;
 }
-*/
+
 /* Navigation */
 
 nav {
@@ -68,8 +67,14 @@ nav {
     position: relative;
     height: 78vh;
 
+    .container {
+        padding: 35px 0;
+    }
+
     ul {
         text-transform: uppercase;
+        margin: 0;
+        padding: 0;
         li {
             float: left;
             margin-right: 50px;
@@ -82,7 +87,7 @@ nav {
 
     .welcome {
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
         bottom: auto;
@@ -92,19 +97,22 @@ nav {
             font-family: $font-welcome;
             font-style: italic;
             font-size: 34px;
+            margin: 0;
+            padding: 0;
         }
 
         .welcome-text {
             font-family: $font-header;
             text-transform: uppercase;
             letter-spacing: 3px;
-            font-weight: 900;
-            font-size: 40px;
+            font-size: 70px;
+            padding: 10px 0;
+            margin: 0;
         }
 
         .button {
             display: inline-block;
-            min-width: 200px;
+            width: 240px;
             background-color: $color-additional;
             margin: 24px auto 0 auto;
             padding: 16px;
@@ -122,7 +130,7 @@ nav {
 /* Services */
 
 .services {
-    padding-top: 100px;
+    padding: 100px 0;
 
     .fas {
         color: $color-additional;
@@ -170,5 +178,46 @@ nav {
 
     .card-subtitle {
         padding-bottom: 10px;
+    }
+}
+
+/* Footer */
+
+footer {
+
+    .row {
+     /*   align-items: center;*/
+        padding: 20px;
+    }
+
+
+
+    .copyright {
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style-type: none;
+        float: left;
+        padding: 0 5px 0;
+    }
+
+    .fab {
+        padding: 10px;
+        font-size: 20px;
+        width: 40px;
+        text-align: center;
+        margin: 5px 2px;
+        border-radius: 50%;    
+        box-shadow: 5px 5px 10px 0px black;    
+        color: $color-light;
+        background-color: $color-dark;
     }
 }
