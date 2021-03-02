@@ -35,6 +35,11 @@ a {
     text-decoration: none;
 }
 
+p {
+    color: $color-subheader;
+    font-style: italic;
+}
+
 body {
     margin: 0 auto;
     text-align: center;
@@ -45,11 +50,11 @@ body {
     background-color: $color-light;
     width: 74%;
 }
-
+/*
 .row {
     padding: 30px 0;
 }
-
+*/
 /* Navigation */
 
 nav {
@@ -117,11 +122,7 @@ nav {
 /* Services */
 
 .services {
-    padding: 100px 0;
-
-    p {
-        color: $color-subheader;
-    }
+    padding-top: 100px;
 
     .fas {
         color: $color-additional;
@@ -135,4 +136,39 @@ nav {
         display: inline-block;
     }
     
+}
+
+/* Portfolio */
+
+.portfolio {
+    background-color: #dff9fb;
+
+    .header {
+        padding-top: 80px;
+    }
+
+    .row:last-of-type {
+        padding-bottom: 50px;
+    }
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .card-title, .card-subtitle {
+        background-color: $color-light;
+        padding: 0;
+        margin: 0;
+        width: 300px;
+    }
+
+    .card-title {
+        margin-top: -10px;
+        padding-top: 10px;
+    }
+
+    .card-subtitle {
+        padding-bottom: 10px;
+    }
 }
